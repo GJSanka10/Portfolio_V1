@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gayan Jayasanka</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+    <!-- Social Buttons CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="css/demo.css">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/993d47a0d6.js" crossorigin="anonymous">
+    </script>
+
+
+
+    <script src="email.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("-4a85V83PpEVU2l7-");
+        })();
+    </script>
+
+
+    <style>
+        /***NEON***/
+        #neon1 {
+            border: 3px solid #12CBC4;
+            color: #12CBC4;
+
+        }
+
+        #neon2 {
+            border: 3px solid #00a8ff;
+            color: #00a8ff;
+
+        }
+
+        #neon3 {
+            border: 3px solid #fbc531;
+            color: #fbc531;
+
+        }
+
+        #neon4 {
+            border: 3px solid #273c75;
+            color: #273c75;
+
+        }
+
+        #neon5 {
+            border: 3px solid #EA2027;
+            color: #EA2027;
+
+        }
+
+        #neon6 {
+            border: 3px solid #EE5A24;
+            color: #EE5A24;
+
+        }
+
+        .all_sheen {
+            text-align: center;
+            position: relative;
+            padding: 16px 16px;
+            font-size: 20px;
+            cursor: pointer;
+            width: 250px;
+            height: 60px;
+            border-radius: 2em;
+            overflow: hidden;
+            background-color: transparent;
+            margin: 5px;
+            align-items: center;
+            border-radius: 50px;
+            -webkit-transition: all .15s ease-in-out;
+            transition: all .15s ease-in-out;
+
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            /* Center horizontally */
+            align-items: center;
+            /* Center vertically */
+            flex-wrap: wrap;
+            /* Wrap buttons to the next line if they don't fit horizontally */
+        }
+
+        .all_sheen1 {
+            position: relative;
+            padding: 16px 16px;
+            font-size: 20px;
+            cursor: pointer;
+            width: 280px;
+            height: 60px;
+            border-radius: 2em;
+            overflow: hidden;
+            background-color: transparent;
+            margin: 5px;
+            text-align: center;
+
+
+            border-radius: 50px;
+            -webkit-transition: all .15s ease-in-out;
+            transition: all .15s ease-in-out;
+
+        }
+
+        .sheen1:hover {
+            box-shadow: 0 0 10px 0 #12CBC4 inset, 0 0 20px 2px #12CBC4;
+            border: 3px solid #12CBC4;
+        }
+
+        .sheen2:hover {
+            box-shadow: 0 0 10px 0 #00a8ff inset, 0 0 20px 2px #00a8ff;
+            border: 3px solid #00a8ff;
+        }
+
+        .sheen3:hover {
+            box-shadow: 0 0 10px 0 #fbc531 inset, 0 0 20px 2px #fbc531;
+            border: 3px solid #fbc531;
+        }
+
+        .sheen4:hover {
+            box-shadow: 0 0 10px 0 #273c75 inset, 0 0 20px 2px #273c75;
+            border: 3px solid #273c75;
+        }
+
+        .sheen5:hover {
+            box-shadow: 0 0 10px 0 #EA2027 inset, 0 0 20px 2px #EA2027;
+            border: 3px solid #EA2027;
+        }
+
+        .sheen6:hover {
+            box-shadow: 0 0 10px 0 #EE5A24 inset, 0 0 20px 2px #EE5A24;
+            border: 3px solid #EE5A24;
+        }
+
+        /*.img-fluid{
+            border: black solid;
+            margin-top: 50px;
+        }*/
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
+        <img src="gjs2.png" width="150px" height="50px">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">#GJSanka</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+
+            </div>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Gayan Jayasanka</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Web Developer, Software Developer, Apps Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="GayanJayasanka.pdf" target="_blank" download="GayanJayasanka.pdf"
+                            class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/Gayan.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="wrapper">
+        <a href="https://www.facebook.com/gayan.jayasanka.7?mibextid=ZbWKwL" class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </a>
+        <a href="www.linkedin.com/in/gayan-jayasanka-b67638211" class="icon twitter">
+            <div class="tooltip">Linkedin</div>
+            <span><i class="fab fa-linkedin-in"></i></span>
+        </a>
+
+        <a href="https://github.com/GJSanka10" class="icon github">
+            <div class="tooltip">Github</div>
+            <span><i class="fab fa-github"></i></span>
+        </a>
+
+        <a href="#" class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span><i class="fab fa-instagram"></i></span>
+        </a>
+
+        <a href="#" class="icon youtube">
+            <div class="tooltip">Youtube</div>
+            <span><i class="fab fa-youtube"></i></span>
+        </a>
+    </div>
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">3</h1>
+                            <h5 class="mb-0">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of my own experience as a Web developer & Software developer</h3>
+                    </div>
+                    <h3 class="display-5 mb-3">ABOUT ME</h3>
+
+                    <p class="mb-4">I thrive as an individual fueled by determination, equipped with the remarkable
+                        knack to thrive in any scenario. My passion lies in the world of app and web development, where
+                        I'm known for my relentless work ethic. Beyond just writing code, I craft digital experiences
+                        that resonate. What sets me apart is not just my technical prowess, but my role as a team
+                        catalyst. I champion open expression, transforming team dynamics into hubs of creativity and
+                        constructive critique.</p>
+
+                    <div class="neon button-container">
+                        <button class="all_sheen1 sheen5" id="neon5"> Web Development</button>
+
+                        <button class="all_sheen1 sheen2" id="neon2"> App Development</button>
+
+                        <button class="all_sheen1 sheen3" id="neon3"> Software Development</button>
+
+                        <button class="all_sheen1 sheen4" id="neon4">UI/UX Development</button>
+
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">1</h2>
+                    </div>
+                    <p class="mb-4">Our clients' satisfaction is our top priority. We've had the privilege of working
+                        with amazing individuals and businesses, and their feedback speaks for itself.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">4</h2>
+                    </div>
+                    <p class="mb-0">Here are some of the projects we've successfully completed for our clients. Each
+                        project reflects our dedication to quality and client satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Certificate-->
+    <div class="container-fluid bg-light py-0 my-0" id="testimonial">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">My Certifications</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-left h-100">
+                        <img class="img-fluid" data-wow-delay="0.1s" src="img/a.png" alt="">
+                        <img class="img-fluid" data-wow-delay="0.3s" src="img/f.png" alt="">
+                        <img class="img-fluid" data-wow-delay="0.5s" src="img/d.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-6">
+                                <img class="img-fluid border border-secondary p-1 mx-auto" src="img/full.png" alt="">
+                                <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/full.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <div class="testimonial-icon">
+                                   <i class="fa fa-quote-left text-primary"></i>
+                                </div> -->
+                            </div>
+                            <p class="fs-5 fst-italic">Full Stack Software Developer Assessment</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Verify at:</h5>
+                            <span>https://coursera.org/verif y/44Y5RDCEB5WJ</span>
+                        </div>
+
+                        <div class="testimonial-item text-center">
+
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid border border-secondary p-1 mx-auto" src="img/lara.png" alt="">
+                                <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/lara.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <div class="testimonial-icon">
+                                   <i class="fa fa-quote-left text-primary"></i>
+                                </div> -->
+                            </div>
+                            <p class="fs-5 fst-italic">Laravel Protection</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Verify at:</h5>
+                            <span>https://coursera.org/verif y/3267JUHE53EK</span>
+                        </div>
+
+                        <div class="testimonial-item text-center">
+
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid border border-secondary p-1 mx-auto" src="img/Node.png" alt="">
+                                <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/Node.png"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <div class="testimonial-icon">
+                                   <i class="fa fa-quote-left text-primary"></i>
+                                </div> -->
+                            </div>
+                            <p class="fs-5 fst-italic">Building REST APIs with Node.js and Express</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Verify at:</h5>
+                            <span>https://coursera.org/verif y/3GT277GHLRUG</span>
+                        </div>
+
+
+
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid  border border-secondary p-2 mx-auto" src="img/web.jpg" alt="">
+                                <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/web.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div> -->
+                            </div>
+
+                            <p class="fs-5 fst-italic">Web Development for Beginners</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Verification Code</h5>
+                            <span>qKF0ZF7CMJ</span>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <div class="position-relative mb-5">
+                                <img class="img-fluid border border-secondary p-2 mx-auto" src="img/python.jpg" alt="">
+                                <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/python.jpg"
+                                    data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <!-- <div class="testimonial-icon">
+                                    <i class="fa fa-quote-left text-primary"></i>
+                                </div> -->
+                            </div>
+                            <p class="fs-5 fst-italic">Python for Beginners</p>
+                            <hr class="w-25 mx-auto">
+                            <h5>Verification Code</h5>
+                            <span>qKF0ZF7CMJ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <div class="testimonial-right h-100">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.1s" src="img/p.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.3s" src="img/i.png" alt="">
+                        <img class="img-fluid wow fadeIn" data-wow-delay="0.5s" src="img/h.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--end certificate-->
+
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">These are specific abilities related to your field, such as programming languages,
+                        software proficiency, or technical expertise.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Front-End Development</h6>
+                                    <h6 class="font-weight-bold">60%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="60"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Back_Ende Development</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Mobile App Development</h6>
+                                    <h6 class="font-weight-bold">65%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="65"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Application Development</h6>
+                                    <h6 class="font-weight-bold">75%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="75"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Project Management</h6>
+                                    <h6 class="font-weight-bold">60%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="60"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">UI/UX Design</h6>
+                                    <h6 class="font-weight-bold">50%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr class="text-primary my-2">
+                    <div class="space">
+
+                    </div>
+                    <h3 class="mb-4">What I Know</h3>
+
+                    <div class="neon button-container">
+                        <button class="all_sheen sheen5" id="neon5"><i class="fab fa-laravel"></i> Laravel</button>
+
+                        <button class="all_sheen sheen2" id="neon2"><i class="fab fa-html5"></i> HTML</button>
+                        <button class="all_sheen sheen3" id="neon3"><i class="fab fa-js"></i> Javascript</button>
+
+                        <button class="all_sheen sheen4" id="neon4"><i class="fab fa-python"></i>Python</button>
+                        <button class="all_sheen sheen1" id="neon1"><i class="fab fa-css3 "></i> CSS</button>
+                        <button class="all_sheen sheen6" id="neon6"><i class="fab fa-java "></i> Java</button>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill"
+                                href="#tab-1">Education</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Own
+                                Experience</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="">
+                                    <p class="text-primary mb-1">2021 - Present</p>
+                                    <h5><i class="fa-solid fa-building-columns"></i> Reading for Bachelor of Information
+                                        Technology</h5>
+                                    <hr class="text-primary my-2">
+
+                                    <h6 class="mb-0"><i class="fa-solid fa-check"></i> Faculty of Technology, University
+                                        of Colombo2nd year completed undergraduate</h6>
+                                </div>
+                                <div class="">
+                                    <p class="text-primary mb-1">2021</p>
+                                    <h5><i class="fa-brands fa-java"></i> Diploma in COMPRHENSIVE MASTER JAVA DEVELOPER
+                                    </h5>
+                                    <hr class="text-primary my-2">
+                                    <h6 class="mb-0"><i class="fa-solid fa-check"></i> Institute of Software Engineering
+                                        (IJSE) , Galle</h6>
+                                </div>
+                                <div class="">
+                                    <p class="text-primary mb-1">2017 - 2019</p>
+                                    <h5><i class="fa-regular fa-circle"></i> Passed G.C.E Advanced Level Examination
+                                    </h5>
+                                    <h6 class="mb-0"> G/Devapathiraja National College , Galle Subject Stream :
+                                        Engineering Technology</h6>
+                                    <hr class="text-primary my-2">
+
+                                    <h5><i class="fa-regular fa-circle"></i> Diploma in Software Engineering</h5>
+                                    <h6 class="mb-0"> ESOFT Metro Campus, Galle</h6>
+                                    <hr class="text-primary my-2">
+
+                                    <h5><i class="fa-regular fa-circle"></i> Personal Computer Based Application</h5>
+                                    <h6 class="mb-0"> Vocational training Authority of Sri Lanka</h6>
+                                    <hr class="text-primary my-2">
+
+                                    <h5><i class="fa-regular fa-circle"></i> Diploma In ICT</h5>
+                                    <h6 class="mb-0"> ICBT Campus , Galle</h6>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="">
+                                    <h5>3 years of experience in Front-End Web Development using HTML,CSS and Javascript
+                                    </h5>
+                                    <hr class="text-primary my-2">
+                                    <!-- <p class="text-primary mb-1">2000 - 2045</p> -->
+                                    <h6 class="mb-0">Familiar with HTML 5, CSS, JavaScript and Good working knowledge of
+                                        Bootstrap 4.0 - 5.2</h6>
+                                </div>
+                                <div class="">
+                                    <h5>1 years of experience in Back-End Web Development using PHP and Laravel
+                                        Framework</h5>
+                                    <hr class="text-primary my-2">
+                                    <!-- <p class="text-primary mb-1">2000 - 2045</p> -->
+                                    <h6 class="mb-0">Back-End development with MySQL databases Knowledge</h6>
+                                </div>
+                                <div class="">
+                                    <h5>6 Months of experience in Flutter App Development</h5>
+                                    <hr class="text-primary my-2">
+                                    <!-- <p class="text-primary mb-1">2000 - 2045</p> -->
+                                    <h6 class="mb-0">Good knowledge of UI development and Firebase functions in Flutter.
+                                    </h6>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Service Start -->
+     <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa-solid fa-table-columns fa-beat fa-2xl"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Real State Admin Dashboard</h4>
+                            <span>It provides a centralized platform where you can view and organize property listings,
+                                track performance metrics, handle tenant communication, and streamline financial
+                                management.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa-solid fa-building-columns fa-beat fa-2xl"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Bank Application</h4>
+                            <span>A simple bank application is a user-friendly digital platform that enables customers
+                                to manage their finances conveniently. With this app, users can check their account
+                                balances, view transaction history, transfer funds, pay bills, and even deposit
+                                checks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa-solid fa-cart-shopping fa-beat fa-2xl"></i>>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3"> commerce Web Application</h4>
+                            <span>An e-commerce shopping website is an online marketplace where customers can explore
+                                and purchase a wide variety of products and services from the comfort of their own
+                                homes. This platform offers a user-friendly interface that allows users to browse
+                                through an extensive catalog of items, compare prices, read product descriptions and
+                                reviews, and make secure payments.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa-solid fa-calculator fa-beat fa-2xl"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">BMI App</h4>
+                            <span>A BMI (Body Mass Index) app is a handy tool for individuals looking to monitor their
+                                health and fitness. Users can input their information, and the app will generate their
+                                BMI score, often accompanied by insights on what it means and potential health
+                                implications.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Service End -->
+
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                 <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div> 
+
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p1.png" class="card-img-top" alt="Hollywood Sign on The Hill" />
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p2.png" class="card-img-top" alt="Palm Springs Road" />
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p3.png" class="card-img-top" alt="Los Angeles Skyscrapers" />
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p4.png" class="card-img-top" alt="Skyscrapers" />
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p5.png" class="card-img-top" alt="Skyscrapers" />
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="img/p6.png" class="card-img-top" alt="Skyscrapers" />
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+    <!-- <div>
+
+        <button onclick="navigateToPage()" class="button-63" role="button"
+            style="display: block; margin: 0 auto;">GitHub</button>
+
+    </div> -->
+
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">Address:</p>
+                    <h3 class="fw-bold">No:104 Near the Railway Pitiwella Boossa , Galle , Sri Lanka</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+94716831692</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">gjsanka10@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+
+                        <a class="btn btn-square btn-primary me-2"
+                            href="https://www.facebook.com/gayan.jayasanka.7?mibextid=ZbWKwL"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/GJSanka10"><i
+                                class="fab fa-github"></i></a>
+
+                        <a class="btn btn-square btn-primary me-2"
+                            href="http://www.linkedin.com/in/gayan-jayasanka-b67638211"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Are you facing technical challenges or need expert guidance on programming-related
+                        issues?
+                        Look no further! I'm here to assist you with tailored solutions to your coding problems. Whether
+                        it's troubleshooting code,
+                        seeking advice on software development, or discussing your projects, this is your direct line to
+                        a dedicated programmer.
+                        Let's collaborate and find solutions together. Your programming success is just a message away.
+                    </p>
+
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="fullName" placeholder="Your Name">
+                                <label for="fullName">Your Name</label>
+                            </div>
+                            <div id="nameError" class="text-danger"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email_id" placeholder="Your Email">
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div id="emailError" class="text-danger"></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <div id="messageError" class="text-danger"></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <button onclick="validateAndSend()" class="btn btn-primary py-3 px-5" type="submit">Send
+                                    Message</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="form-message" class="text-success"></div>
+                </div>
+
+                <script>
+                    function validateAndSend() {
+                        // Clear previous error messages
+                        document.getElementById("nameError").textContent = "";
+                        document.getElementById("emailError").textContent = "";
+                        document.getElementById("messageError").textContent = "";
+
+                        // Get values from form fields
+                        const name = document.getElementById("fullName").value;
+                        const email = document.getElementById("email_id").value;
+                        const message = document.getElementById("message").value;
+
+                        // Check if fields are empty
+                        if (!name) {
+                            document.getElementById("nameError").textContent = "Name is required.";
+                            return;
+                        }
+                        if (!email) {
+                            document.getElementById("emailError").textContent = "Email is required.";
+                            return;
+                        }
+                        if (!message) {
+                            document.getElementById("messageError").textContent = "Message is required.";
+                            return;
+                        }
+
+                        // If all fields are filled, you can proceed to send the message
+                        sendMail();
+                    }
+
+                    // Add event listeners to clear error messages on input
+                    document.getElementById("fullName").addEventListener("input", function () {
+                        document.getElementById("nameError").textContent = "";
+                    });
+
+                    document.getElementById("email").addEventListener("input", function () {
+                        document.getElementById("emailError").textContent = "";
+                    });
+
+                    document.getElementById("message").addEventListener("input", function () {
+                        document.getElementById("messageError").textContent = "";
+                    });
+                </script>
+
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.21628579534!2d80.04244737462544!3d6.817374119679307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25358fc9a7c7d%3A0x30401976911d0809!2sFaculty%20of%20Technology%2C%20University%20of%20Colombo!5e1!3m2!1sen!2slk!4v1694454751938!5m2!1sen!2slk"
+                    width="1350" height="750" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">GJSanka</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Designed By <a class="border-bottom text-secondary" href="#">Gayan Jayasanka</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script>
+        function navigateToPage() {
+            // Replace 'destination.html' with the actual URL of the page you want to navigate to
+            window.location.href = 'https://github.com/GJSanka10';
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
